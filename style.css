@@ -54,6 +54,7 @@ form input, form button{
     border: none;
     background: white;
     max-width: 50%;
+    outline: none;
 }
 
 form button{
