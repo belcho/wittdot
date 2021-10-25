@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    padding-top: 0;
 }
 
 body{
@@ -13,6 +14,21 @@ body{
 
 header{
     font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    max-height: 0;
+
+}
+
+h1{
+    max-height: 0;
+}
+
+p{
+   text-align: center; 
+   font-weight: 700;
+   font-size: 1.5rem;
+   
 
 }
 
@@ -24,10 +40,11 @@ header,form{
 }
 
 form input, form button{
-    padding: 0.5rem;
-    font-size: 2rem;
+    padding: 0.2rem;
+    font-size: 1.8rem;
     border: none;
     background: white;
+    max-width: 50%;
 }
 
 form button{
