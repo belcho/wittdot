@@ -145,9 +145,11 @@ form button:hover{
 .bottom-author-tag{
     display: flex;
     justify-content: right;
-    align-items: right;
+    align-items: center;
     padding-right: 20%;
     padding-top: 20%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 
