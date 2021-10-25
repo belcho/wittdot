@@ -10,6 +10,7 @@ body{
     color: rgb(37, 37, 37);
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
+
 }
 
 header{
@@ -128,6 +129,14 @@ form button:hover{
 .fall{
     transform: translateY(8rem) rotateZ(20deg);
     opacity: 0;
+}
+
+.bottom-author-tag{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding-right: 20%;
+    padding-top: 20%;
 }
 
 
